@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKRENT | Rent</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./renting.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">BOOKRENT</a>
+            <div class="icons">
+                <span>My account</span>
+                <a href="#" id="userlink">
+                    <i class='bx bx-user' id="user-icon"></i>
+                </a>
+                <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            </div>
+            
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+    
+                <div class="cart-content">
+                    
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+
+            <div class="cart2">
+
+                <div class="login-box">
+                    <h2>MY ACCOUNT</h2>
+                    <h4 id="h4"></h4>
+                    <form>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputName">
+                        <label id="inputNameL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputLastname">
+                        <label id="inputLastnameL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputPhone">
+                        <label id="inputPhoneL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputDateofbirth">
+                        <label id="inputDateofbirthL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputAddress">
+                        <label id="inputAddressL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputEmail">
+                        <label id="inputEmailL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="text" name="" required="" id="inputNickname">
+                        <label id="inputNicknameL"></label>
+                      </div>
+                      <div class="user-box">
+                        <input type="password" name="" required="" id="inputPassword">
+                        <label id="inputPasswordL"></label>
+                      </div>
+        
+                      <a href="#" id="submit">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        [Save Changes]
+                      </a>
+        
+                      <a href="#" id="deleteButton">Delete my Account!</a>
+                    </form>
+                    </div>
+                
+                <!-- <div class="login-box2">
+                  
+                </div> -->
+        
+                <i class="bx bx-x" id="cart2-close"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="shop container">
+        <h2 class="section-title">RENT BOOKS</h2>
+
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="./images/sherlockholmes.png" alt="" class="product-img">
+                <h2 class="product-title">Sherlock Holmes</h2>
+                <span class="black">Genre: </span> <span class="contents">Fictional detective</span><br>
+                <span class="black">Description: </span> <span class="contents">Sherlock Holmes is a fictional detective created by British author Sir Arthur Conan Doyle...</span><br>
+                <span class="black">Author: </span> <span class="contents">Arthur Conan Doyle</span><br>
+                <span class="black">Publish year: </span> <span class="contents">2006</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/ToKillAMockingbird.png" alt="" class="product-img">
+                <h2 class="product-title">To Kill a Mockingbird</h2>
+                <span class="black">Genre: </span> <span class="contents">Novel</span><br>
+                <span class="black">Description: </span> <span class="contents">To Kill a Mockingbird is a novel by the American author Harper Lee...</span><br>
+                <span class="black">Author: </span> <span class="contents">Harper Lee</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1960</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/theCatcherintheRye.png" alt="" class="product-img">
+                <h2 class="product-title">The Catcher in the Rye</h2>
+                <span class="black">Genre: </span> <span class="contents">Bildungsroman</span><br>
+                <span class="black">Description: </span> <span class="contents">The Catcher in the Rye is an American novel by J. D. Salinger that was partially published ...</span><br>
+                <span class="black">Author: </span> <span class="contents">J. D. Salinger</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1951</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/HarryPotter.png" alt="" class="product-img">
+                <h2 class="product-title">Harry Potter and the Chamber of Secrets</h2>
+                <span class="black">Genre: </span> <span class="contents">Fantasy Fiction</span><br>
+                <span class="black">Description: </span> <span class="contents">Harry Potter and the Chamber of Secrets is a fantasy novel written by British author J. K. Rowling...</span><br>
+                <span class="black">Author: </span> <span class="contents">J. K. Rowling</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1998</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/CleanCode.png" alt="" class="product-img">
+                <h2 class="product-title">Clean Code</h2>
+                <span class="black">Genre: </span> <span class="contents">Scientistic</span><br>
+                <span class="black">Description: </span> <span class="contents">Even bad code can function. But if code isn't clean, it can bring a development organization to its knees...</span><br>
+                <span class="black">Author: </span> <span class="contents">Robert Cecil Martin</span><br>
+                <span class="black">Publish year: </span> <span class="contents">2008</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/It.png" alt="" class="product-img">
+                <h2 class="product-title">It</h2>
+                <span class="black">Genre: </span> <span class="contents">Horror</span><br>
+                <span class="black">Description: </span> <span class="contents">It is a 1986 horror novel by American author Stephen King...</span><br>
+                <span class="black">Author: </span> <span class="contents">Stephen King</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1986</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/SnowCrash.png" alt="" class="product-img">
+                <h2 class="product-title">Snow Crash</h2>
+                <span class="black">Genre: </span> <span class="contents">Cyberpunk</span><br>
+                <span class="black">Description: </span> <span class="contents">Snow Crash is a science fiction novel by the American writer Neal Stephenson, published in 1992...</span><br>
+                <span class="black">Author: </span> <span class="contents">Neal Stephenson</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1992</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/TheGreatGatsby.png" alt="" class="product-img">
+                <h2 class="product-title">The Great Gatsby</h2>
+                <span class="black">Genre: </span> <span class="contents">Psychological Fiction</span><br>
+                <span class="black">Description: </span> <span class="contents">The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald...</span><br>
+                <span class="black">Author: </span> <span class="contents">F. Scott Fitzgerald</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1925</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/GulliversTravels.png" alt="" class="product-img">
+                <h2 class="product-title">Gulliver's Travels</h2>
+                <span class="black">Genre: </span> <span class="contents">Children's literature</span><br>
+                <span class="black">Description: </span> <span class="contents">Gulliver's Travels was first published in 1726, and three centuries later it remains in full force...</span><br>
+                <span class="black">Author: </span> <span class="contents">Jonathan Swift</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1726</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+
+            <div class="product-box">
+                <img src="./images/AnimalFarm.png" alt="" class="product-img">
+                <h2 class="product-title">Animal Farm</h2>
+                <span class="black">Genre: </span> <span class="contents">Allegory</span><br>
+                <span class="black">Description: </span> <span class="contents">Animal Farm is a beast fable, in the form of satirical allegorical novella, by George Orwell...</span><br>
+                <span class="black">Author: </span> <span class="contents">George Orwell</span><br>
+                <span class="black">Publish year: </span> <span class="contents">1945</span><br>
+                <span class="product-price">$0.1</span>
+                <i class='bx bx-shopping-bag add-cart'></i>              
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./renting.js"></script>
+</body>
+</html>

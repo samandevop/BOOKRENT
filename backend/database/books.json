@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "isbn": "978-0393058000",
+    "title": "Sherlock Holmes",
+    "genre": "Fictional detective",
+    "description": "Sherlock Holmes is a fictional detective created by British author Sir Arthur Conan Doyle. Referring to himself as a consulting detective in the stories, Holmes is known for his proficiency with observation, deduction, forensic science and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.",
+    "author": "Arthur Conan Doyle",
+    "publish_year": 2006,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/sherlockholmes.png"
+  },
+  {
+    "id": 2,
+    "isbn": "978-0393058000",
+    "title": "To Kill a Mockingbird",
+    "genre": "Novel",
+    "description": "To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, it is widely read in high schools and middle schools. To Kill a Mockingbird has become a classic of modern American literature, winning the Pulitzer Prize.",
+    "author": "Harper Lee",
+    "publish_year": 1960,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/ToKillAMockingbird.png"
+  },
+  {
+    "id": 3,
+    "isbn": "978-0393058000",
+    "title": "The Catcher in the Rye",
+    "genre": "Bildungsroman",
+    "description": "The Catcher in the Rye is an American novel by J. D. Salinger that was partially published in serial form from 1945-46 before being novelized in 1951. Originally intended for adults, it is often read by adolescents for its themes of angst and alienation, and as a critique of superficiality in society.",
+    "author": "J. D. Salinger",
+    "publish_year": 1951,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/theCatcherintheRye.png"
+  },
+  {
+    "id": 4,
+    "isbn": "978-0393058000",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "genre": "Fantasy Fiction",
+    "description": "Harry Potter and the Chamber of Secrets is a fantasy novel written by British author J. K. Rowling and the second novel in the Harry Potter series.",
+    "author": "J. K. Rowling",
+    "publish_year": 1998,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/HarryPotter.png"
+  },
+  {
+    "id": 5,
+    "isbn": "978-0393058000",
+    "title": "Clean Code",
+    "genre": "Scientistic",
+    "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code.",
+    "author": "Robert Cecil Martin",
+    "publish_year": 2008,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/CleanCode.png"
+  },
+  {
+    "id": 6,
+    "isbn": "978-0393058000",
+    "title": "It",
+    "genre": "Horror",
+    "description": "It is a 1986 horror novel by American author Stephen King. It was his 22nd book and his 17th novel written under his own name.",
+    "author": "Stephen King",
+    "publish_year": 1986,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/It.png"
+  },
+  {
+    "id": 7,
+    "isbn": "978-0393058000",
+    "title": "Snow Crash",
+    "genre": "Cyberpunk",
+    "description": "Snow Crash is a science fiction novel by the American writer Neal Stephenson, published in 1992. Like many of Stephenson's novels, it covers history, linguistics, anthropology, archaeology, religion, computer science, politics, cryptography, memetics, and philosophy.",
+    "author": "Neal Stephenson",
+    "publish_year": 1992,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/SnowCrash.png"
+  },
+  {
+    "id": 8,
+    "isbn": "978-0393058000",
+    "title": "The Great Gatsby",
+    "genre": "Psychological Fiction",
+    "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.",
+    "author": "F. Scott Fitzgerald",
+    "publish_year": 1925,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/TheGreatGatsby.png"
+  },
+  {
+    "id": 9,
+    "isbn": "978-0393058000",
+    "title": "Gulliver's Travels",
+    "genre": "Children's literature",
+    "description": "Gulliver's Travels was first published in 1726, and three centuries later it remains in full force. ",
+    "author": "Jonathan Swift",
+    "publish_year": 1726,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/GulliversTravels.png"
+  },
+  {
+    "id": 10,
+    "isbn": "978-0393058000",
+    "title": "Animal Farm",
+    "genre": "Allegory",
+    "description": "Animal Farm is a beast fable, in the form of satirical allegorical novella, by George Orwell, first published in England on 17 August 1945.",
+    "author": "George Orwell",
+    "publish_year": 1945,
+    "cover_photo_url": "/Home/programs/BookRenting/frontend/renting/images/AnimalFarm.png"
+  }
+]
